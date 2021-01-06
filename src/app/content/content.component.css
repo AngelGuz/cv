@@ -1,19 +1,95 @@
 /* Content style  */
 section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     width: 100%;
     height: 100vh;
+    align-items: center;
+    scroll-snap-align: center;
 }
 
 section h1 {
-    font-size: 4rem;
+    color: #ebebeb;
+    font-size: 3rem;
+    line-height: 1.0;
+}
+section ul {
+    text-align: left;
+}
+section p {
+    font-size: 1.0rem;
+    line-height: 1.2;
+    font-weight: 200;
+}
+.section{
+    padding: 3rem;
+}
+section#home{
+    background: url(../../assets/principal1.jpg) no-repeat center center/cover;
+}
+section#about{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: url(../../assets/principal1.jpg) no-repeat center center/cover;
+}
+section#service{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: url(https://64.media.tumblr.com/95f02d55724b631531d0b32dbd001297/tumblr_p177vracYv1wh4uq0o1_1280.gif) no-repeat center center/cover;
+}
+section#service h1{
+    padding: 0 0 4rem 0;
+}
+section#contact{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: url(https://papagayafanzine.files.wordpress.com/2015/10/tumblr_nsst4s2m631rs8ht8o2_500.gif) no-repeat center center/cover;
 }
 
-section p {
-    font-size: 1.5rem;
+.content  h2{
+    color:#c8c8c8;
+    font-size: 22px;
 }
+.content  h3{
+    color:#8a8a8a;
+    font-size: 16px;
+}
+
+.content li{
+    font-size: 11px;
+}
+
+.left{
+    width: 50vh;
+    text-align: right;
+    padding: 2rem 4rem 2rem 4rem;
+    letter-spacing: 3.2px;
+    border-color: #fff;
+    border-width: 0 2px 0 0;
+    border-style: none solid none none;
+}
+.left img{
+    width: 20%;
+}
+.right {
+    width: 50vh;
+    text-align: right;
+    margin: 4rem;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.8);
+    float:left;
+    height: 100%;
+    max-height: 200px;
+    border-color: #fff;
+    border-width: 0 2px 0 0;
+    border-style: none solid none none;
+}
+.part1,.part2,.part3,.part4{
+    width: 19%;
+    padding: 1.8rem;
+}
+
 /* End content style  */
